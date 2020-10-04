@@ -1,0 +1,38 @@
+header {
+  background: #2d3047;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header nav .menu .brand img {
+   width: 30px
+
+}
+header nav .menu .links {
+display: flex;
+
+}
+header nav .menu .links a {
+  padding: 16px 12px;
+  color: #fff;
+  text-decoration: overline;
+  border-bottom: 6px solid transparent;
+}
+
+header nav .auth button {
+    padding: 21px 20px;
+    border: none;
+    background: #eb4855;
+    color: #fff;
+}
